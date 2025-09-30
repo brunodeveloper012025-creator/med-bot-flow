@@ -1,36 +1,51 @@
-import { Bot, Calendar, Clock, Heart, MessageSquare, TrendingUp } from "lucide-react";
+import { Bot, Calendar, Clock, FileText, MessageSquare, TrendingUp, Users, Stethoscope, Building2 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const features = [
   {
-    icon: Bot,
-    title: "IA Humanizada",
-    description: "Atendimento natural e empático que seus pacientes não vão perceber que é IA.",
+    icon: MessageSquare,
+    title: "Atendimento WhatsApp Automatizado",
+    description: "Conversa humanizada e profissional como uma secretária real, com escalonamento inteligente para humanos quando necessário.",
   },
   {
     icon: Calendar,
-    title: "Agendamentos Automáticos",
-    description: "Sistema inteligente que agenda, confirma e envia lembretes automaticamente.",
+    title: "Agendamento Inteligente",
+    description: "Integração com Google Agenda, confirmação automática e lembretes para pacientes direto na plataforma.",
   },
   {
     icon: Clock,
-    title: "Disponível 24/7",
-    description: "Seu agente virtual trabalha dia e noite, sem descanso ou feriados.",
+    title: "Lembretes e Confirmações Automáticas",
+    description: "IA envia lembretes e confirmações adaptáveis, reduzindo faltas e melhorando a organização do consultório.",
   },
   {
-    icon: MessageSquare,
-    title: "WhatsApp Integrado",
-    description: "Atendimento direto no aplicativo favorito dos seus pacientes.",
+    icon: Users,
+    title: "Gestão de Pacientes Presenciais",
+    description: "Registro de chegada, direcionamento e acompanhamento em tempo real da lista de pacientes no consultório.",
+  },
+  {
+    icon: FileText,
+    title: "Prontuários Eletrônicos",
+    description: "Armazenamento seguro com histórico completo de cada paciente e acesso rápido integrado ao fluxo de atendimento.",
+  },
+  {
+    icon: Bot,
+    title: "Agente de IA Personalizado",
+    description: "Treinado com protocolos e procedimentos da sua clínica, respondendo dúvidas com precisão e tom de voz adaptado.",
+  },
+  {
+    icon: Stethoscope,
+    title: "Gestão Unificada de Pacientes",
+    description: "Histórico completo de atendimentos online e presenciais, com visualização centralizada de todos os pontos de contato.",
   },
   {
     icon: TrendingUp,
-    title: "Escalonamento Inteligente",
-    description: "Passa automaticamente para humano quando necessário.",
+    title: "Integração WhatsApp Flexível",
+    description: "Compatível com API Oficial e não oficial, oferecendo flexibilidade e segurança conforme a necessidade da clínica.",
   },
   {
-    icon: Heart,
-    title: "Treinamento Personalizado",
-    description: "Configuramos a IA com a linguagem e processos da sua clínica.",
+    icon: Building2,
+    title: "Escalabilidade Completa",
+    description: "Suporte para múltiplas clínicas e atendentes, crescendo junto com o seu negócio.",
   },
 ];
 
