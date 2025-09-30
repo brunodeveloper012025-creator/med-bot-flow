@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import testimonialsBg from "@/assets/testimonials-bg.jpg";
 
 const testimonials = [
   {
@@ -24,7 +25,15 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-16 md:py-24 bg-muted">
+    <section 
+      className="py-16 md:py-24 bg-muted relative"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${testimonialsBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4 animate-fade-in">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
