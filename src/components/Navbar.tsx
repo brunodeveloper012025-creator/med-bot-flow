@@ -17,9 +17,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50 shadow-soft">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="NeoClini" className="h-10 w-auto" />
+            <img src={logo} alt="NeoClini" className="h-14 md:h-16 w-auto" />
           </div>
 
           {/* Desktop Menu */}

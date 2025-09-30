@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
-            <img src={logo} alt="NeoClini" className="h-10 w-auto" />
+            <img src={logo} alt="NeoClini" className="h-12 w-auto" />
             <p className="text-muted-foreground text-sm">
               Automatize o atendimento da sua clínica com IA humanizada via WhatsApp.
             </p>

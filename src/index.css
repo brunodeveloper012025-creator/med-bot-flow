@@ -17,15 +17,15 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Medical blue - professional and trustworthy */
-    --primary: 210 85% 48%;
+    /* Cyan blue from NeoClini logo - vibrant and modern */
+    --primary: 195 100% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 210 85% 42%;
+    --primary-hover: 195 100% 38%;
 
-    /* Teal accent - technology and innovation */
-    --secondary: 180 65% 45%;
+    /* Purple from NeoClini logo - innovation and technology */
+    --secondary: 250 60% 55%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-hover: 180 65% 38%;
+    --secondary-hover: 250 60% 48%;
 
     /* Soft green - positive actions */
     --accent: 145 65% 50%;
@@ -39,19 +39,19 @@ All colors MUST be HSL.
 
     --border: 215 20% 88%;
     --input: 215 20% 88%;
-    --ring: 210 85% 48%;
+    --ring: 195 100% 45%;
 
     --radius: 0.75rem;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(210 85% 48%), hsl(180 65% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(210 85% 48%) 0%, hsl(180 65% 45%) 100%);
+    /* Gradients using NeoClini brand colors */
+    --gradient-primary: linear-gradient(135deg, hsl(195 100% 45%), hsl(250 60% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(195 100% 45%) 0%, hsl(250 60% 55%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 30% 98%));
 
-    /* Shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(210 85% 48% / 0.1);
-    --shadow-medium: 0 8px 30px -4px hsl(210 85% 48% / 0.15);
-    --shadow-strong: 0 20px 50px -12px hsl(210 85% 48% / 0.25);
+    /* Shadows with brand color */
+    --shadow-soft: 0 4px 20px -2px hsl(195 100% 45% / 0.1);
+    --shadow-medium: 0 8px 30px -4px hsl(195 100% 45% / 0.15);
+    --shadow-strong: 0 20px 50px -12px hsl(195 100% 45% / 0.25);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,13 +68,13 @@ All colors MUST be HSL.
     --popover: 215 25% 15%;
     --popover-foreground: 210 30% 95%;
 
-    --primary: 210 85% 55%;
+    --primary: 195 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 210 85% 48%;
+    --primary-hover: 195 100% 45%;
 
-    --secondary: 180 65% 50%;
+    --secondary: 250 60% 60%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-hover: 180 65% 42%;
+    --secondary-hover: 250 60% 52%;
 
     --accent: 145 65% 55%;
     --accent-foreground: 0 0% 100%;
@@ -87,7 +87,7 @@ All colors MUST be HSL.
 
     --border: 215 25% 25%;
     --input: 215 25% 25%;
-    --ring: 210 85% 55%;
+    --ring: 195 100% 50%;
   }
 }
 
