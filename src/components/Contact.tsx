@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre a MediAI", "_blank");
+    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre o NeoClini", "_blank");
   };
 
   return (
@@ -127,7 +127,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold mb-2">E-mail</h4>
                   <p className="text-muted-foreground text-sm">
-                    contato@mediai.com.br
+                    contato@neoclini.com.br
                   </p>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const Contact = () => {
             <Card className="p-6 border-2 border-primary bg-gradient-to-br from-primary/5 to-secondary/5">
               <h4 className="font-semibold mb-2 text-lg">🎯 Agende uma demonstração</h4>
               <p className="text-muted-foreground text-sm mb-4">
-                Veja na prática como a MediAI funciona e tire todas as suas dúvidas em uma demonstração personalizada.
+                Veja na prática como o NeoClini funciona e tire todas as suas dúvidas em uma demonstração personalizada.
               </p>
               <Button onClick={handleWhatsApp} variant="cta" size="lg" className="w-full">
                 Agendar Demo Gratuita

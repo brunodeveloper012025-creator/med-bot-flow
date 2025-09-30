@@ -1,3 +1,5 @@
+import logo from "@/assets/logo-neoclini.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -13,9 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              MediAI
-            </h3>
+            <img src={logo} alt="NeoClini" className="h-10 w-auto" />
             <p className="text-muted-foreground text-sm">
               Automatize o atendimento da sua clínica com IA humanizada via WhatsApp.
             </p>
@@ -96,7 +96,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} MediAI. Todos os direitos reservados.</p>
+          <p>© {currentYear} NeoClini. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

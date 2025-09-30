@@ -55,7 +55,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl blur-3xl" />
             <img
               src={heroImage}
-              alt="Profissional de saúde usando automação WhatsApp"
+              alt="Profissional de saúde usando NeoClini para automação WhatsApp"
               className="relative rounded-2xl shadow-strong w-full"
             />
           </div>
